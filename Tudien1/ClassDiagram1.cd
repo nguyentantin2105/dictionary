@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Tudien1.Form1">
+    <Position X="4" Y="0.5" Width="2.5" />
+    <AssociationLine Name="Tudaluucs" Type="Tudien1.Tudaluucs">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.339" Y="0.164" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="SignIn" Type="Tudien1.SignIn" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="6.063" />
+        <Point X="6.74" Y="6.063" />
+        <Point X="6.74" Y="1" />
+        <Point X="7" Y="1" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="SearchOnline" Type="Tudien1.SearchOnline" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="5.875" />
+        <Point X="6.657" Y="5.875" Type="JumpStart" />
+        <Point X="6.823" Y="5.875" Type="JumpEnd" />
+        <Point X="7.033" Y="5.875" />
+        <Point X="7.033" Y="7.246" />
+        <Point X="7.75" Y="7.246" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.106" Y="0.448" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>TQJEBICAACGAAIEQIBCCAAECAoSECDABAjQAAAKCACA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Tudaluucs" />
+      <Property Name="SignIn" />
+      <Property Name="SearchOnline" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tudien1.SignIn">
+    <Position X="7" Y="0.5" Width="1.75" />
+    <AssociationLine Name="Admin" Type="Tudien1.Admin" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="3.812" />
+        <Point X="9.125" Y="3.812" />
+        <Point X="9.125" Y="4.631" />
+        <Point X="9.5" Y="4.631" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>gIAAAAAAECAgABAAQACAAQACACAACAAAAAAAAABAAAA=</HashCode>
+      <FileName>SignIn.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Admin" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tudien1.Tudaluucs">
+    <Position X="1.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACCAAAEAIACEAAACAAQYACAJAHQAAAACAAA=</HashCode>
+      <FileName>Tudaluucs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tudien1.Admin">
+    <Position X="9.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACACCiAgITECMACAgAAOIAEAACAAACAAQAAAACA=</HashCode>
+      <FileName>Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tudien1.SearchOnline">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAACAAABAAAAiAAIACAAAAAABgACAAAAADAAI=</HashCode>
+      <FileName>SearchOnline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
